@@ -23,6 +23,86 @@ img {
     border-right: 5px solid #fff;
 }
 
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-1200px)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}
+
+.container {
+    animation: slideInLeft 1s ease-in;
+}
+
+.percent {
+    background: #081921;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.percent:hover {
+    box-shadow: 0 14px 28x rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.percent span {
+    height: 10px;
+    float:left;
+    background: linear-gradient(135deg, rgb(255, 166, 0)0%, rgba(252,103,103,1)100%)
+
+}
+
+
+.korean {
+    width: 100%;
+    animation: korean 5s;
+}
+
+.japanese {
+    width: 90%;
+    animation: japanese 5s;
+}
+
+.english {
+    width: 85%;
+    animation: english 5s;
+}
+
+@keyframes korean{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes japanese{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes english{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -153,9 +233,61 @@ img {
     background: #f36e3e;
 }
 
+.office {
+    width: 90%;
+    animation: office 5s;
+}
 
+.timemanage {
+    width: 90%;
+    animation: timemanage 5s;
+}
 
+.responsibility {
+    width: 100%;
+    animation: responsibility 5s;
+}
 
+.solving {
+    width: 100%;
+    animation: solving 5s;
+}
+
+@keyframes office{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes timemanage{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes responsibility{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes solving{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
 
 .container .right_side {
     position: relative;
