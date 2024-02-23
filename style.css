@@ -8,7 +8,7 @@
 
 body {
     text-align: justify;
-    background: rgb(255, 216, 197);
+    background: #767676;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ img {
 
 .container .left_side {
     position: relative;
-    background: #003147;
+    background: #21292d;
     padding: 40;
 }
 
@@ -113,7 +113,7 @@ img {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #f36e3e;
 }
 
 .contactInfo ul li span {
@@ -127,7 +127,7 @@ img {
 }
 
 .contactInfo.education h5 {
-    color: #03a9f4;
+    color: #f36e3e;
     font-weight: 500;
 }
 
@@ -150,7 +150,7 @@ img {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #f36e3e;
 }
 
 
@@ -201,7 +201,7 @@ p {
 .about .box .text h4 {
     margin-left: 80px;
     text-transform: uppercase;
-    color: #2a7da2;
+    color: #f36e3e;
     font-size: 16px;
 }
 .about .box .text ul {
@@ -220,7 +220,7 @@ p {
 .skills .box h4 {
     text-transform: uppercase;
     color: #848c90;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .skills .box .percent {
@@ -235,7 +235,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #f36e3e;
 }
 
 .interest ul {
@@ -250,7 +250,7 @@ p {
 }
 
 .interest ul li .fa {
-    color: #03a9f4;
+    color: #f36e3e;
     font-size: 18px;
     width: 20px;
 }
@@ -258,7 +258,7 @@ p {
 .reference {
     text-align: center;
     padding: 8px;
-    background: #002642;
+    background: #21292d;
     color: #ffffff;
     margin-left: 40px;
     border-radius: 13px;
