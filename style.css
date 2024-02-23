@@ -174,7 +174,7 @@ img {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contactInfo ul {
@@ -243,9 +243,9 @@ img {
     animation: timemanage 5s;
 }
 
-.responsibility {
+.decision {
     width: 100%;
-    animation: responsibility 5s;
+    animation: decision 5s;
 }
 
 .solving {
@@ -271,7 +271,7 @@ img {
     }
 }
 
-@keyframes responsibility{
+@keyframes decision{
     0%{
         width: 0%;
     }
@@ -376,31 +376,20 @@ p {
 }
 
 .interest ul li {
+    margin-left: 2px;
     color: #333;
     font-weight: 500;
-    margin: 10px 0;
+    text-align: center;
+    padding: 4px;
+    background: #21292d;
+    color: #ffffff;
+    border-radius: 13px;
 }
 
 .interest ul li .fa {
     color: #f36e3e;
     font-size: 18px;
     width: 20px;
-}
-
-.reference {
-    text-align: center;
-    padding: 8px;
-    background: #21292d;
-    color: #ffffff;
-    margin-left: 40px;
-    border-radius: 13px;
-}
-
-.title3{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
 }
 
 
